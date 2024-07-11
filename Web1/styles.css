@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.Frame_1 {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  z-index: 1;
+}
+
+ .car_1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(Img/car.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; /* Ensure the image does not repeat */
+  background-position: center; /* Center the image */
+  z-index: 0;
+  }
+  .gradient {
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.371) 0%,
+      rgb(0, 0, 0) 100%
+    );
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .SITE_NAME {
+    color: rgba(255, 255, 255, 1);
+  width: 214px;
+  height: 48px;
+  position: absolute;
+  left: 80px;
+  top: 52px;
+  font-family: Inter;
+  text-align: left;
+  font-size: 40px;
+  letter-spacing: 0;
+
+  }
+  nav {
+    color: white;
+    padding: 10px 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+  .nav {
+  width: 624px;
+  height: 44px;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 52px;
+  display: flex; /* Use flexbox to arrange buttons horizontally */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  }
+
+
+    .nav_button{
+      color: rgba(255, 255, 255, 1);
+      width: 136px;
+      height: 44px;
+      position: relative;
+      font-family: Inter, sans-serif;
+      text-align: center;
+      font-size: 36px;
+      letter-spacing: 0;
+      line-height: 44px; /* Vertically center the text within the button */
+      margin: 0 10px; /* Add horizontal spacing between buttons */
+    }
+
+    .menu-toggle {
+      display: none;
+      cursor: pointer;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 24px;
+      width: 30px;
+      color: white;
+      font-size: 24px;
+    }
+
+/* Side menu */
+.side-menu {
+
+  position: fixed;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: #290a29;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: right;
+  transition: right 0.3s ease; /* Transition effect */
+    z-index: 5; /* Ensure it appears below menu icon */
+}
+
+.side-menu .nav_button {
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+/* Show side menu */
+.side-menu.show {
+  right: 0; /* Move into view */
+}
+
+    /* Media Queries for Tablet and Mobile Views */
+@media screen and (max-width: 1400px) {
+  .nav{
+    display: none;
+  }
+
+  .nav_profile{
+   margin-right: 50px;
+  }
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+
+    justify-content: space-around;
+  }
+
+}
+
+
+.nav_profile{
+  width: 50px;
+  height: 50px;
+  background: #d9d9d9;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 20px;
+  top: 52px;
+}
+
+
+
+
+  .Group_4 {
+    width: 665px;
+  height: 439px;
+  position: absolute;
+  left: 50px;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+ /* align-items: center;*/
+  justify-content: center;
+  gap: 20px; /* Adjust gap between elements */
+  }
+    .Rectangle_2 {
+      position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.58);
+  border-radius: 30px;
+    }
+    .Button_3 {
+      position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 55px;
+  background: #3a86ff;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 1;
+    }
+      .Call_to_Action {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+      }
+    
+    .MAIN_HEADING {
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      font-size: 64px;
+      font-weight: normal;
+      z-index: 1;
+      text-align: left;
+      padding-left: 30px;
+    }
+    .Sample_text_about_what_it_is_the_company_is_about {
+      color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  z-index: 1;
+  text-align: left;
+  padding-left: 30px;
+    }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background: #d9d9d9;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 20px;
+    top: 52px;
+  }
+
+
+/*frame 2*/
+.Frame_2 {
+  width: 100%;
+  height: 1080px;
+  background: #0A1521;
+}
+.Frame_2 .Reasons{
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 50px;
+  gap: 40px;;
+}
+
+.Frame_2 .Group_5,
+.Frame_2 .Group_6,
+.Frame_2 .Group_7,
+.Frame_2 .Group_8 {
+  width: 296px;
+  height: 180px;
+  background: rgba(95, 99, 204, 0.1);
+  border: 1px solid #3f44b2;
+   display: inline-block; /* Display them inline */
+  vertical-align: top; /* Align them to the top */
+
+}
+
+
+.Frame_2 .Group_5 .Sellingpoint_1,
+.Frame_2 .Group_6 .Sellingpoint_2,
+.Frame_2 .Group_7 .Sellingpoint_3,
+.Frame_2 .Group_8 .Sellingpoint_4 {
+  color: #ffffff;
+  text-shadow:  -1px -1px 0 #4044B2,  
+  1px -1px 0 #4044B2,
+  -1px 1px 0 #4044B2,
+  1px 1px 0 #4044B2;;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Frame_2 .Group_5 .statistics,
+.Frame_2 .Group_6 .statistics,
+.Frame_2 .Group_7 .statistics,
+.Frame_2 .Group_8 .statistics {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Frame_2 .About {
+
+  width: 1440px;
+  height: auto;
+  background: rgba(95, 100, 204, 0.6);
+  border: 5px solid #4044b2;
+margin: auto;
+}
+
+.Frame_2 .About .About_heading {
+  color: #ffffff;
+ font-weight: bold;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+   margin-left: 40px;
+   margin-top: 10px;
+}
+.Frame_2 .About .About_txt{
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left:75px;
+padding-right: 75px;
+ 
+}
+
+.Frame_2 .Testimonials {
+display: flex;
+flex-direction: column;
+}
+
+.Frame_2 .Testimonials .T_heading {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+.Frame_2 .T_contentBlock{
+  display: flex;
+  flex-direction: row; /* Arrange content blocks horizontally */
+  justify-content: center; /* Center the content blocks horizontally */
+  gap: 150px; /* Space between content blocks */
+}
+
+.Frame_2 .Group_11,
+.Frame_2 .Group_12,
+.Frame_2 .Group_13 {
+  display: flex;
+  flex-direction: column; /* Ensure content within groups is stacked vertically */
+  align-items: center; /* Center items within each group */
+  padding: 20px;
+}
+
+.Frame_2 .T_block {
+  width: 339px;
+  height: 336px;
+  background: rgba(168, 168, 168, 0.5);
+  border-radius: 30px;
+  margin: 20px;
+  display: flex;
+  
+  flex-direction: column; 
+ align-items: center; /* Center ellipse horizontally */
+
+}
+
+.Frame_2 .T_profile {
+  width: 75px;
+  height: 75px;
+  background: #a7a7a7;
+  border: 2px solid #4044b2;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.Frame_2 .T_content{
+  color: #000000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Frame_2 .T_contentRef{
+  color: #000000;
+  font-family: Inter;
+  font-size:24px;
+  font-weight: normal;
+  text-align: center;
+}
+
