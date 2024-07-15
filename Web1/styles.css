@@ -120,11 +120,9 @@ nav {
 }
 
 /* Media Queries for Tablet and Mobile Views */
-/* Media Queries for Tablet and Mobile Views */
 @media screen and (max-width: 738px) {
   body {
     overflow-x: hidden;
-    max-width:738px;
   }
   
   .SITE_NAME {
@@ -167,10 +165,14 @@ nav {
   }
 
   .Group_4 {
-    width: 100px;
-    left: 20px;
-    right: 20px;
+    width: auto;
+    left: 10px;
+    right: 10px;
     top: auto;
+    transform: none; /* Remove translateY(-50%) for mobile view */
+    position: static;
+    padding: 10px;
+    gap: 10px; /* Adjust gap between elements */
   }
 
   .MAIN_HEADING {
@@ -190,6 +192,12 @@ nav {
     right: 10px;
   }
 
+  .car_1 {
+    background-size: contain; /* Adjust background size */
+    background-position: center; /* Center the background image */
+    height: 50vh; /* Adjust height for mobile view */
+  }
+
   .Frame_2 .Reasons {
     flex-direction: column;
     padding: 20px;
@@ -205,8 +213,9 @@ nav {
   }
 
   .Frame_2 .About {
-    max-width: 738px;
+    width: 100%;
     padding: 20px;
+    margin: 0 auto; /* Center align for mobile view */
   }
 
   .Frame_2 .About .About_heading {
@@ -221,12 +230,12 @@ nav {
 
   .Frame_2 .Testimonials {
     padding: 20px;
-    flex-direction: column;
   }
 
   .Frame_2 .Testimonials .T_heading {
     font-size: 24px;
     margin-left: 0;
+    text-align: center; /* Center align heading */
   }
 
   .Frame_2 .T_contentBlock {
@@ -253,6 +262,7 @@ nav {
     font-size: 16px;
   }
 }
+
 
 
 .nav_profile {
