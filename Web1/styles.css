@@ -407,7 +407,7 @@ nav {
     right: 10px;
     top: auto;
     transform: none; /* Remove translateY(-50%) for mobile view */
-    position: static;
+    
     padding: 10px;
     gap: 10px; /* Adjust gap between elements */
   }
