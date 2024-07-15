@@ -168,7 +168,7 @@ nav {
   }
 
   .Group_4 {
-    width: auto;
+    width: 100px;
     left: 20px;
     right: 20px;
     top: auto;
@@ -206,7 +206,7 @@ nav {
   }
 
   .Frame_2 .About {
-    width: 100%;
+    max-width: 738px;
     padding: 20px;
   }
 
