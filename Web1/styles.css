@@ -222,6 +222,7 @@ nav {
 
   .Frame_2 .Testimonials {
     padding: 20px;
+    flex-direction: column;
   }
 
   .Frame_2 .Testimonials .T_heading {
