@@ -356,14 +356,10 @@ nav {
   font-weight: normal;
   text-align: center;
 }
-
 /* Media Queries for Tablet and Mobile Views */
 @media screen and (max-width: 738px) {
   body {
     overflow-x: hidden;
-  }
-  .Frame_1{
-    height: 600px
   }
 
   .SITE_NAME {
