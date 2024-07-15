@@ -1,7 +1,9 @@
+
 body {
   margin: 0;
-  padding: 0;
+  padding-right: 0px;
   height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 .Frame_1 {
@@ -14,7 +16,7 @@ body {
  .car_1 {
   width: 100%;
   height: 100%;
-  background-image: url(Img/car.jpg);
+  background-image: url(img/car.jpg);
   background-size: cover;
   background-repeat: no-repeat; /* Ensure the image does not repeat */
   background-position: center; /* Center the image */
@@ -121,7 +123,10 @@ body {
 }
 
     /* Media Queries for Tablet and Mobile Views */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 738px) {
+body{
+    overflow-x: hidden;
+}
   .nav{
     display: none;
   }
