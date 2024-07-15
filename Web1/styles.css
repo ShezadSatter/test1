@@ -361,6 +361,9 @@ nav {
   body {
     overflow-x: hidden;
   }
+  .Frame_1{
+height: auto;
+  }
 
   .SITE_NAME {
     font-size: 24px;
@@ -403,6 +406,7 @@ nav {
 
   .Group_4 {
     width: auto;
+    height: auto;
     left: 10px;
     right: 10px;
     top: auto;
