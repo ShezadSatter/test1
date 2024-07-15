@@ -16,7 +16,7 @@ body {
  .car_1 {
   width: 100%;
   height: 100%;
-  background-image: url(https://github.com/ShezadSatter/test1/blob/main/Web1/Img/car.jpg);
+  background-image: url(./Img/car.jpg);
   background-size: cover;
   background-repeat: no-repeat; /* Ensure the image does not repeat */
   background-position: center; /* Center the image */
