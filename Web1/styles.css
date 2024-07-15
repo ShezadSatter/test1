@@ -362,6 +362,9 @@ nav {
   body {
     overflow-x: hidden;
   }
+  .Frame_1{
+    height: 600px
+  }
 
   .SITE_NAME {
     font-size: 24px;
