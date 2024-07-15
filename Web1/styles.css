@@ -127,10 +127,13 @@ nav {
   
   .SITE_NAME {
     font-size: 24px;
-    left: 20px;
+    left: 100px;
     top: 20px;
     width: auto;
   }
+  .nav_profile{
+    top:20px;
+    right: 100px;
 
   .nav {
     display: none;
@@ -213,7 +216,7 @@ nav {
   }
 
   .Frame_2 .About {
-    width: 100%;
+    width: 50%;
     padding: 20px;
     margin: 0 auto; /* Center align for mobile view */
   }
