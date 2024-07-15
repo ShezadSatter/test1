@@ -124,6 +124,8 @@ nav {
 @media screen and (max-width: 738px) {
   body {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
   }
   
   .SITE_NAME {
@@ -170,7 +172,6 @@ nav {
     left: 20px;
     right: 20px;
     top: auto;
-    transform: translateY(-50%);
   }
 
   .MAIN_HEADING {
