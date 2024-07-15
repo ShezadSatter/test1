@@ -124,16 +124,13 @@ nav {
   body {
     overflow-x: hidden;
   }
-  
+
   .SITE_NAME {
     font-size: 24px;
-    left: 100px;
+    left: 20px;
     top: 20px;
     width: auto;
   }
-  .nav_profile{
-    top:20px;
-    right: 100px;
 
   .nav {
     display: none;
@@ -147,8 +144,8 @@ nav {
   }
 
   .side-menu {
-    width: 100%;
-    right: -100%;
+    width: 80%; /* Adjust width for the side menu */
+    right: -80%; /* Adjust initial position to be just off-screen */
   }
 
   .side-menu.show {
@@ -196,7 +193,7 @@ nav {
   }
 
   .car_1 {
-    background-size: contain; /* Adjust background size */
+    background-size: cover; /* Adjust background size */
     background-position: center; /* Center the background image */
     height: 50vh; /* Adjust height for mobile view */
   }
@@ -216,7 +213,7 @@ nav {
   }
 
   .Frame_2 .About {
-    width: 50%;
+    width: 100%;
     padding: 20px;
     margin: 0 auto; /* Center align for mobile view */
   }
